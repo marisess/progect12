@@ -1,12 +1,19 @@
 body{
     font-family: Helvetica;
 }
+.wrapper{
+    display: flex;
+}
 .main_box{
     padding-top: 210px;
     padding-left: 130px;
 }
 .pol1{
     width: 50%;
+}
+.pol2{
+    width: 50%;
+    margin-left: 20px;
 }
 .hr{
     border: 1px solid #CDD2D5;
@@ -18,6 +25,14 @@ body{
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.2em;
+    opacity: 0.6;
+}
+.h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
     opacity: 0.6;
 }
 .logo{
